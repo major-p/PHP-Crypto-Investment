@@ -1,0 +1,43 @@
+.fixed-bottom-frame{
+    position: fixed;
+    bottom: 0;
+    width:100vw;
+    margin: 0;
+    background: #fff;
+}
+.float-image{
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+      transform: translateX(0);
+    }
+    100% {
+      left: 10%;
+      transform: translateX(-10%);
+    }
+}
+.started-container{
+    background: #f2f5ff;
+}
+.started-item{
+    margin-bottom: 30px;
+}
+
+.started-icon{
+    color:#2124b1;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.image-icons img{
+    width: 70px  !important;
+    margin-bottom: 30px;
+}
+.custom-service-item{
+    height:150px !important
+}

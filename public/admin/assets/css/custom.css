@@ -1,0 +1,158 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.logo-container h3{
+    color:#2124b1;
+}
+.form-group label{
+    color:#000000 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.form-check-label{
+    margin-top:-10px !important;
+}
+
+.forgot-pass{
+    color:#000000 !important;  
+}
+.sign-up{
+    color:#000000 !important;     
+}
+.p_input{
+    background: #f2f6fe !important;
+    border-radius: 5px;
+    padding:10px !important;
+    border:none !important;
+    height:50px !important;
+    padding-left: 20px !important;
+}
+.black-font{
+    color:#000000 !important;     
+    margin-bottom: 40px !important;
+}
+.login-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    margin-left: 0%;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+.login-text-wrapper h3{
+    margin: 0 !important;
+}
+.error-wrapper-warning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:50px;
+    background: #ffe8e4;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.message-warning{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+
+}
+.error-wrapper-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:50px;
+    background: #eefbe8;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.message-success{
+    color:green;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+}
+
+.preview-item-content{
+    display:flex;
+    align-items:center !important;
+}
+.row-wrapper{
+    display:flex;
+    align-items:center !important;
+justify-content: center;    
+}
+.coin-name{
+    margin:0;
+}
+.coin-value{
+    margin:0 !important;
+}
+.row-wrapper-buttons{
+    display:flex;
+    align-items:center !important;
+justify-content: space-around;
+width:100%;
+}
+.uppercase-text{
+    text-transform: uppercase !important;
+}
+.custom-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.custom-column{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form-group-custom{
+    width: 100%;
+    background: green;
+}
+.form-group label{
+    color:#fff !important;
+}
+
+.form-control-white{
+    background: #fff;
+}
+.coin-amount{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color:#000000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.username-box{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color:#000000;
+    cursor: pointer; 
+}
+.card-description{
+    color:#fff !important;
+    text-align: left !important;
+    width:90%;
+}
+.user-login-info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:96%;
+    margin-left: 2%;
+}
